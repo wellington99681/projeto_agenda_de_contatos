@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-left: 5rem;
+}
+
+input {
+    margin-bottom: 12px;
+    padding: 8px;
+    font-size: 20px;
+    width: 90%;
+    border-radius: 3px;
+}
+
+button {
+    width: 80%;
+    padding: 8px;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    margin-left: 55px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 35px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #279cae;
+    transition-duration: 500ms;
+}
+
+table{
+    width: 100%;
+    max-width: 750px;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
